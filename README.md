@@ -1,1 +1,1 @@
-# lcms
+# Base Development Environment for Laravel
