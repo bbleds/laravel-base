@@ -13,9 +13,9 @@ ADD . /app
 
 # Install any needed packages specified in requirements.txt
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer\
-    mkdir -p storage/framework/views\
-    mkdir -p storage/framework/sessions\
-    mkdir -p storage/framework/cache\
+    mkdir -p /app/storage/framework/views\
+    mkdir -p /app/storage/framework/sessions\
+    mkdir -p /app/storage/framework/cache\
     composer install
 
 # Make port 8000 available to the world outside this container
