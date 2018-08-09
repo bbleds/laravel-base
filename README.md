@@ -1,6 +1,6 @@
 # Docker Laravel Starter
 
-This is a lightweight development environment Dia Docker for Laravel applications. This is intended to be a first step when starting a new app/build and only requires image packages that are absolutely necessary to run a fresh or basic Laravel project.
+This is a lightweight development environment via Docker for Laravel applications. This is intended to be a first step when starting a new app/build and only requires image packages that are absolutely necessary to run a fresh or basic Laravel project.
 
 Before running, be sure to install Docker and Docker compose https://docs.Docker.com/compose/install/.
 
