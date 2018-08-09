@@ -1,5 +1,15 @@
 # Docker Laravel Starter
 
-This is a lightweight development environment via Docker for Laravel applications. This is intended to be a first step when starting a new app/build and only requires image packages that are absolutely necessary to run a fresh or basic laravel project.
+This is a lightweight development environment Dia Docker for Laravel applications. This is intended to be a first step when starting a new app/build and only requires image packages that are absolutely necessary to run a fresh or basic Laravel project.
 
-Before running, be sure to install docker and docker compose https://docs.docker.com/compose/install/
+Before running, be sure to install Docker and Docker compose https://docs.Docker.com/compose/install/.
+
+# Running Locally
+
+Asumming you have access to Docker and Docker-compose commands in your local machine, do the following:
+
+1. Clone this repo to your machine ```git clone https://github.com/bbleds/laravel-base.git```
+2. Go into the newly created directory ```cd laravel-base```
+3. Build your Docker image ```docker-compose build```
+4. Spin up container ```docker-compose up```
+5. Good to go! View app locally by visiting localhost:8000 in your browser.
