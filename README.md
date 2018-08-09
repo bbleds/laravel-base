@@ -6,7 +6,7 @@ Before running, be sure to install Docker and Docker compose https://docs.Docker
 
 # Running Locally
 
-Asumming you have access to Docker and Docker-compose commands in your local machine, do the following:
+Assuming you have access to ```docker``` and ```docker-compose``` commands on your local machine, do the following:
 
 1. Clone this repo to your machine ```git clone https://github.com/bbleds/laravel-base.git```
 2. Go into the newly created directory ```cd laravel-base```
