@@ -11,6 +11,8 @@ Asumming you have access to Docker and Docker-compose commands in your local mac
 1. Clone this repo to your machine ```git clone https://github.com/bbleds/laravel-base.git```
 2. Go into the newly created directory ```cd laravel-base```
 3. Install composer dependencies (this will be updated, but at the time of this writing we need to install locally) ```composer install```
-3. Build your Docker image ```docker-compose build```
-4. Spin up container ```docker-compose up```
-5. Good to go! View app locally by visiting localhost:8000 in your browser.
+4. Set up your environment file ```cp .env.example .env```
+5. Generate an application key ```php artisan key:generate```
+6. Build your Docker image ```docker-compose build```
+7. Spin up container ```docker-compose up```
+8. Good to go! View app locally by visiting localhost:8000 in your browser.
